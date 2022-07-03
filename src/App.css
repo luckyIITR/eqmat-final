@@ -1,38 +1,86 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+* {
+    font-family: "Poppins", sans-serif;
+    /* font-family: 'Times New Roman', Times, serif; */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
   }
+
+
+  /* Nav bar and logo */
+.navcolor{
+    color: black;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.margin
+{
+    border: 2px solid black;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.logoImage {
+    max-width: 100%;
+    width: 500px;
   }
-  to {
-    transform: rotate(360deg);
+
+.iitrlogo{
+    width: 100%;
+  max-width: 270px;
+  height: auto;
+}
+.title{
+    font-weight: bold;
+    font-size: 2.3em;
+}
+
+.hover {
+    font-size: 15px;
+}
+.hover li a:hover,
+.hover li.active a {
+  background-color: #d4d6de;
+}
+
+.hover ul li a {
+  font-weight: bold;
+}
+
+
+/* text-box */
+
+.btn {
+    display: inline-block;
+    background-color: #5e9dca;
+    color: white;
+    padding: 4px 25px;
+    border-radius: 30px;
+    margin: 30px 0;
+    transition: background 0.5s;
   }
+  .btn:hover {
+    background: #b47777;
+  }
+
+.date{
+  background-color: #5e9dca;
+  border-radius: 30px;
+}
+  .carouselImage{
+    background: linear-gradient(rgba(4, 9, 30, 0.35), rgba(4, 9, 30, 0.35)),
+    url(./components/images/M4.jpg) no-repeat;
+    width: 100%;
+    min-height: 80vh;
+    object-fit: contain;
+    background-position: 50%;
+    background-size: cover;
+  }
+
+/* About section */
+
+.about{
+  background: linear-gradient( 180deg, rgba(0, 103, 179, 0.8) 11.46%, #5183b8 32.29%, #5183b8 90.1% );
+}
+
+/* footer */
+.footerlogo{
+  width: 300px;
 }

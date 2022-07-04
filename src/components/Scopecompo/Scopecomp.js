@@ -2,7 +2,7 @@ import React from "react";
 
 function Scopecomp() {
   return (
-    <div className="container" style={{ height: "60vh" }}>
+    <div className="container" style={{ height: "80vh" }}>
       <p className="text-center h2 pt-3 font-weight-bold">SCOPE</p>
       <div className="row">
         <div className="col-sm-3 card pt-2 mt-3 mr-2 ml-2">

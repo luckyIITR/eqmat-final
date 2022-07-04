@@ -2,19 +2,19 @@ import React from "react";
 import Nav from "./Homecompo/Nav";
 import Logo from "./Homecompo/Logo";
 import Footer from "./Homecompo/Footer";
-import Speakercomp from "./Speakercompo/Speakercomp";
+import Datecomp from "./Datecompo/Datecomp";
 
-function Speakers() {
+function Dates() {
   return (
     <div>
       <div className="bg-light">
         <Logo />
         <Nav />
       </div>
-      <Speakercomp />
+      <Datecomp />
       <Footer />
     </div>
   );
 }
 
-export default Speakers;
+export default Dates;

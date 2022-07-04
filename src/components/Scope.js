@@ -1,20 +1,21 @@
 import React from "react";
 import Nav from "./Homecompo/Nav";
 import Logo from "./Homecompo/Logo";
-import Footer from "./Homecompo/Footer";
-import Speakercomp from "./Speakercompo/Speakercomp";
 
-function Speakers() {
+import Footer from "./Homecompo/Footer";
+import Scopecomp from "./Scopecompo/Scopecomp";
+
+function About() {
   return (
     <div>
       <div className="bg-light">
         <Logo />
         <Nav />
       </div>
-      <Speakercomp />
+      <Scopecomp />
       <Footer />
     </div>
   );
 }
 
-export default Speakers;
+export default About;

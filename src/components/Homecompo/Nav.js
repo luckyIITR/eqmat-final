@@ -24,8 +24,8 @@ function Nav() {
               </Link>
             </li>
             <li className="nav-item ">
-              <Link className="nav-link pl-4 pr-4" to="/about">
-                ABOUT
+              <Link className="nav-link pl-4 pr-4" to="/scope">
+                SCOPE
               </Link>
             </li>
             <li className="nav-item ">
@@ -39,6 +39,11 @@ function Nav() {
               </Link>
             </li>
             <li className="nav-item ">
+              <Link className="nav-link pl-4 pr-4 text-nowrap" to="/dates">
+                IMPORTANT DATES
+              </Link>
+            </li>
+            <li className="nav-item ">
               <Link className="nav-link pl-4 pr-4" to="/programs">
                 PROGRAMS
               </Link>
@@ -48,9 +53,14 @@ function Nav() {
                 REGISTRATION
               </Link>
             </li>
-            <li className="nav-item ">
+            {/* <li className="nav-item ">
               <Link className="nav-link pl-4 pr-4" to="/abstract">
                 ABSTRACT
+              </Link>
+            </li> */}
+            <li className="nav-item ">
+              <Link className="nav-link pl-4 pr-4" to="/sponsors">
+                SPONSORS
               </Link>
             </li>
             <li className="nav-item ">

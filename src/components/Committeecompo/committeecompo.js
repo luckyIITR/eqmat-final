@@ -2,7 +2,18 @@ import React from "react";
 
 function committeecompo() {
   return (
-    <div className="container mb-5">
+    <div className="container mb-5 pb-5">
+      <p className="h2 pt-5 mb-5 font-weight-bold">Patron</p>
+      <div className="row">
+        <div className="col-sm-3 card mr-4 p-4 mt-4">
+          <h5 className="card-title font-weight-bold">
+            Prof. A. K. Chaturvedi
+          </h5>
+          <p>Director, Indian Institute of Technology, Roorkee, India</p>
+        </div>
+      </div>
+
+      {/* Advisory Committee */}
       <p className="h2 pt-5 mb-5 font-weight-bold">Advisory Committee</p>
       <div className="row">
         <div className="col-sm-3 card mr-4 p-4 mt-4">
@@ -96,36 +107,28 @@ function committeecompo() {
       <p className="h2 pt-5 mb-5 font-weight-bold">Organizing Committee</p>
       <div className="row">
         <div className="col-sm-3 card mr-4 p-4 mt-4">
-          <h5 className="card-title font-weight-bold">
-            Prof. A. K. Chaturvedi
-          </h5>
-          <p>
-            Director, Indian Institute of Technology, Roorkee, India (Patron)
-          </p>
-        </div>
-        <div className="col-sm-3 card mr-4 p-4 mt-4">
           <h5 className="card-title font-weight-bold">Prof. G. D. Varma</h5>
           <p>
             Head, Dept. of Physics, Indian Institute of Technology, Roorkee,
-            India (Chairman)
+            India <span className="font-weight-bold">(Chairman)</span>
           </p>
         </div>
         <div className="col-sm-3 card mr-4 p-4 mt-4">
           <h5 className="card-title font-weight-bold">Prof. T. Maitra</h5>
           <p>
             Dept. of Physics, Indian Institute of Technology, Roorkee, India
-            (Convener)
+            <span className="font-weight-bold"> (Convener)</span>
           </p>
         </div>
-      </div>
-      <div className="row">
         <div className="col-sm-3 card mr-4 p-4 mt-4">
           <h5 className="card-title font-weight-bold">Prof. Vivek K. Malik</h5>
           <p>
             Dept. of Physics, Indian Institute of Technology, Roorkee, India
-            (Co-convener)
+            <span className="font-weight-bold"> (Co-convener)</span>
           </p>
         </div>
+      </div>
+      <div className="row">
         <div className="col-sm-3 card mr-4 p-4 mt-4">
           <h5 className="card-title font-weight-bold">Prof. N. Mohanta</h5>
           <p>
@@ -140,18 +143,28 @@ function committeecompo() {
             Dept. of Physics, Indian Institute of Technology, Roorkee, India
           </p>
         </div>
-      </div>
-      <div className="row">
         <div className="col-sm-3 card mr-4 p-4 mt-4">
           <h5 className="card-title font-weight-bold">Prof. Hem C. Kandpal</h5>
           <p>
             Dept. of Chemistry, Indian Institute of Technology, Roorkee, India
           </p>
         </div>
+      </div>
+      <div className="row">
         <div className="col-sm-3 card mr-4 p-4 mt-4">
           <h5 className="card-title font-weight-bold">Prof. Tapas K. Mandal</h5>
           <p>
             Dept. of Chemistry, Indian Institute of Technology, Roorkee, India
+          </p>
+        </div>
+        <div className="col-sm-3 card mr-4 p-4 mt-4">
+          <h5 className="card-title font-weight-bold">Prof. Ramesh Chandra</h5>
+          <p>Institute Instrumentation Centre, IIT Roorkee, India</p>
+        </div>
+        <div className="col-sm-3 card mr-4 p-4 mt-4">
+          <h5 className="card-title font-weight-bold">Prof. Himanshu Fulara</h5>
+          <p>
+            Dept. of Physics, Indian Institute of Technology, Roorkee, India
           </p>
         </div>
       </div>

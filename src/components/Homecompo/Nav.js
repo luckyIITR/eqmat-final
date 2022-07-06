@@ -5,7 +5,7 @@ function Nav() {
   return (
     <nav className="sticky-top navbar navbar-expand-sm navbar-light bg-light mb-3 mt-md-3">
       <hr class="mt-2 mb-3" />
-      <div className="container">
+      <div className="container-fluid">
         <button
           className="navbar-toggler"
           data-toggle="collapse"
@@ -53,11 +53,11 @@ function Nav() {
                 REGISTRATION
               </Link>
             </li>
-            {/* <li className="nav-item ">
-              <Link className="nav-link pl-4 pr-4" to="/abstract">
-                ABSTRACT
+            <li className="nav-item ">
+              <Link className="nav-link pl-4 pr-4 text-nowrap" to="/papersubmission">
+                PAPER SUBMISSION
               </Link>
-            </li> */}
+            </li>
             <li className="nav-item ">
               <Link className="nav-link pl-4 pr-4" to="/sponsors">
                 SPONSORS

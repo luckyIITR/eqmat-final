@@ -6,7 +6,7 @@ import Contact from "./components/Contact";
 import Committee from "./components/Committee";
 import Speakers from "./components/Speakers";
 import Programs from "./components/Programs";
-import Abstract from "./components/Abstract";
+import Papersubmission from "./components/Papersubmission";
 import Sponsors from "./components/Sponsors";
 import Scope from "./components/Scope";
 import Dates from "./components/Dates";
@@ -23,7 +23,7 @@ function App() {
         <Route path="/committee" element={<Committee />} />
         <Route path="/speakers" element={<Speakers />} />
         <Route path="/programs" element={<Programs />} />
-        <Route path="/abstract" element={<Abstract />} />
+        <Route path="/papersubmission" element={<Papersubmission />} />
         <Route path="/sponsors" element={<Sponsors />} />
         <Route path="/scope" element={<Scope />} />
         <Route path="/dates" element={<Dates />} />

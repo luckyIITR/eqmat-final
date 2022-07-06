@@ -23,6 +23,7 @@ function Papercomp() {
               href="https://forms.gle/p4NXfvvwXBGSm4dM6"
               type="button"
               target="_blank"
+              rel="noreferrer"
             >
               Paper Submission
             </a>

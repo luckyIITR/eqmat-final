@@ -19,7 +19,7 @@ function con() {
           </p>
         </div>
       </div>
-      <div className="row justify-content-between">
+      {/* <div className="row justify-content-between">
         <div className="col-sm-1"></div>
         <div className="col-sm-3 card m-2">
           <p className="font-weight-bold mt-3">Tulika Maitra</p>
@@ -30,7 +30,7 @@ function con() {
           <p>vivek.malik@ph.iitr.ac.in</p>
         </div>
         <div className="col-sm-1"></div>
-      </div>
+      </div> */}
     </div>
   );
 }

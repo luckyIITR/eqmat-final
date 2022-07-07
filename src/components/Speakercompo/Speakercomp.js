@@ -2,19 +2,19 @@ import React from "react";
 
 var speakers = [
   {
-    name: "Prof. Anthony James Leggett,",
+    name: "Prof. Anthony James Leggett",
     affiliated: "University of Illinois at Urbana-Champaign, USA",
-    title: "Professor Nobel Laureate",
+    // title: "Professor Nobel Laureate",
   },
   {
-    name: "Prof. Albert Fert,",
+    name: "Prof. Albert Fert",
     affiliated: "Paris-Saclay University, Paris, France",
-    title: "Professor Nobel Laureate",
+    // title: "Professor Nobel Laureate",
   },
   {
-    name: "Prof. G. Baskaran,",
+    name: "Prof. G. Baskaran",
     affiliated: "Institute of mathematical sciences, Chennai, India",
-    title: "Professor Bhatnagar awardee",
+    // title: "Professor Bhatnagar awardee",
   },
   {
     name: "Prof. E V Sampathkumaran",

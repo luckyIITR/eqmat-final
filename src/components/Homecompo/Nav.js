@@ -45,7 +45,7 @@ function Nav() {
             </li>
             <li className="nav-item ">
               <Link className="nav-link pl-4 pr-4" to="/programs">
-                PROGRAMS
+                PROGRAM
               </Link>
             </li>
             <li className="nav-item ">
@@ -54,7 +54,10 @@ function Nav() {
               </Link>
             </li>
             <li className="nav-item ">
-              <Link className="nav-link pl-4 pr-4 text-nowrap" to="/papersubmission">
+              <Link
+                className="nav-link pl-4 pr-4 text-nowrap"
+                to="/papersubmission"
+              >
                 PAPER SUBMISSION
               </Link>
             </li>
